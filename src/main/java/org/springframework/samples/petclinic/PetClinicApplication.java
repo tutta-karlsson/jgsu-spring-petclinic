@@ -16,8 +16,8 @@
 
 package org.springframework.samples.petclinic;
 
-//import org.springframework.boot.SpringApplication;
-//import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * PetClinic Spring Boot Application.
@@ -25,11 +25,11 @@ package org.springframework.samples.petclinic;
  * @author Dave Syer
  *
  */
-//@SpringBootApplication(proxyBeanMethods = false)
+@SpringBootApplication(proxyBeanMethods = false)
 public class PetClinicApplication {
 
 	public static void main(String[] args) {
-		//SpringApplication.run(PetClinicApplication.class, args);
+		SpringApplication.run(PetClinicApplication.class, args);
 	}
 
 }
